@@ -9,13 +9,8 @@ class Main
     hand_ranks[key]
   end
 
-  def card_ranks
-  card_ranks = [2, 3, 4, 5, 6, 7, 8, 9, "T", "J", "Q", "K"]
-  end
-
-  def cards_in_a_deck
-  cards_in_a_deck = card_ranks.push("A")
-  end
+  :card_ranks = [2, 3, 4, 5, 6, 7, 8, 9, "T", "J", "Q", "K"]
+  :cards_in_a_deck = card_ranks.push("A")
 
   def getHand()
     hand = ["2D", "9C", "AS", "AH", "AC", "AD", "KD", "JD", "TD", "QD"]
